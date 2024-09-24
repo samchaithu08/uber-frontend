@@ -32,7 +32,7 @@ function App() {
             <button
               className="btn btn-primary"
               onClick={() =>
-                fetchData("http://44.193.195.188/fetch-analytics", setResult1)
+                fetchData("https://uber-analytics.xanderco.in/fetch-analytics", setResult1)
               }
             >
               Get Results
